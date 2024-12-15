@@ -1,20 +1,21 @@
 export const Bio = {
   name: "Mohammed Reda Ealkhal",
   roles: [
-    "Full Stack Developer",
-    "Wordpress Developer",
-    "Programmer",
+    "Développeur Full Stack",
+    "Développeur WordPress",
+    "Programmeur",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "Je suis une personne motivée et polyvalente, toujours prête à relever de nouveaux défis. Passionné par l'apprentissage, je suis dédié à fournir des résultats de haute qualité. Avec une attitude positive et un état d'esprit de croissance, je suis prêt à contribuer de manière significative et à accomplir de grandes choses.",
   github: "https://github.com/mohammed-reda-elakhal",
-  resume:
-    "#",
+  resume: "#",
   linkedin: "https://www.linkedin.com/in/mohammed-reda-elakhal-3967ab282",
   twitter: "#",
   insta: "https://www.instagram.com/mohammed.reda.69/profilecard/?igsh=YjljYXN3enk3bHBo",
   facebook: "https://www.facebook.com/share/1BWNEe8xfw/?mibextid=LQQJ4d",
 };
+
+
 
 export const skills = [
   {
@@ -59,6 +60,11 @@ export const skills = [
         image:
           "data:image/png;base64,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",
       },
+      {
+        name: "Ant Designe",
+        image:
+          "https://static-00.iconduck.com/assets.00/ant-design-icon-2048x2046-dl3neb73.png",
+      },
     ],
   },
   {
@@ -84,8 +90,8 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
       {
-        name: "Firebase",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+        name: "ASP.Net",
+        image: "https://e7.pngegg.com/pngimages/534/663/png-clipart-net-framework-software-framework-c-microsoft-asp-net-microsoft-blue-angle-thumbnail.png",
       },
     ],
   },
@@ -110,17 +116,17 @@ export const skills = [
       {
         name: "Postman",
         image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
-      },
-      {
-        name: "Adobe XD",
-        image:
-          "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
+          "https://cdn.worldvectorlogo.com/logos/postman.svg",
       },
       {
         name: "Figma",
         image:
-          "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+        "https://freepnglogo.com/images/all_img/1691829322canva-app-logo-png.png"
+      },
+      {
+        name: "Figma",
+        image:
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAABQVBMVEUDARz/cmKiWf/yTh4Kz4MavP4AAAD1VS/yTBr8a1YAABqlW/8K04YDABXDPx7IXFL5UR45Ehw9GyUA0YCOTt2uQ/8vyIwJtXQFTjjhUV8AAA4bwv8AABI9ImLQXVQcxv+PLh2tX/+OQ9RChs+MV+ZEmeaPZfVFpfUSf69/RciPcP9Frv8GLDwzEBw2GCQhCxx2Jh2dMx2zOh3DRSvFVUi2VEyjSkR9ODcSBhziSR7qa12RQT5GFxxLISlPGhxWJSxeHhxkLDHSQx1nIzmjN0PTZmXTcXLTh47Ken6mV1tsOkQMFSQkFDlGJ3BsPLKDTOYhGmcAV4AAmtQGq+kKTmoPaI5iNZ4JPFhDJnkAICs9EldSL449OHcMnMxAY6omFUYEKkWWOuoLOjUgiGYmpXcDm1wIlGEEKCkHhFcGck4AWDRz9L4QAAAEBElEQVR4nO3a61cSQRjH8UXYyZYdtbKg2VWyKxVlWhpq93uRViAR2dUE0f//D2gWotrdme3A6Rye4fw+b3y73/PMDrNztCwAAAAAAAAAAAAAAAAAAAAAAAAAAAD4n5yoUT/QYK4dCzkect3i3JSexRtLy1MhN29Nh6ys3l70Tcgpn5laS8+EHTmailif3ijTr7kzJUvSYZPxGJkzf5d6zb21mcl0lDJG5tz3R/24ie6ko1NJiEmt057NmqpFG5NKCcI1y8qWhJhpMepH1rqnbkmISd0nO5qp+Lv/rxi6o1GnJMasUz0K3BgiJnWbj/qx1ZY0qywxZpVozPIwMStEX5rxihnmnaEac2aYmFWi57MHQ8SsPyS6NY/V74zuaJYUs0J0lcnv5cFjFqkORm4Bg56aN8gORno02PfMPOlbjfJAX5op4ncaZdVsdHcAxFukpdjljCZmg/I3c9+15fTMZJji3mzlOtHjcojjC+vxk9Nh8789ffb8+YuXryqM6JkshIvXm1tvJkKyb94yIQRjpXdVuyB5teJ2SZAfjc83Ly9ks5GY2TlmWaxUrxU8u8sr2NVtTvlHRhLl99GSfgxrVPspXQW7XiG91HyxtRBv6caw7drfKd2cok95NmxLkdKLacRagho26ifWYx8WVC1BTPNzLCWoeUe2hotZ5WBkzMe6qsW2axWqC43tqFsmsmc/fY4vsu6uVqc6GqYZjIz5UlNPxq4RjWFzmhYZc07TYnsNmjXsvS5m4vwF9Sqju840+3Lg4iVtDNHdmV3WtUxcuYqYEUp4ZwxcZrqfGSM3gK8JW7M25hvRk3Pij6amhuqPpjxn6mJmN3XHGbInTUc3muCgqTzPeFVG9oZGHmi03zNFxWg8m+hhpovtqD40ex9nioVG+HPGChaa6gqg99ncqHrRudTpLrIAZzuz8eH0LjRKRS90oVGrM+KXTVzMbWWjOb2rJtHcrhZ+XdB4BbvYoH9x5ojy3M7Z7ydDvm8GLwdnpUaxZgd3gNV6o2LCVbMl2O6PvVMhe/nep74vmqWupk9/LFYwmXzOPRGRy/cfnXNfMuQ/gblouW4mwv0TYxLezMRSTI3h+ycULWbGOL5qLobGsLayxcgYvq9uMTJGNxgTY5yKOsXIGD8/RjGio1llJsZoXxnEjNhYxYgD7QbQ2jXilPwXrt/N2qN+tsEJ9clM6hC9g03AWuNzNLMcSxPTpnw9pqPez9zcrnmDkVguXuNmDsx7YwJOJVbjZjomLrKAv58L3We4bs7QuQR4s5XL9Hvk39yhqXMJOCLfDnLcoKR1QPv/4/7Nd/IHnbbUOTTjCjYZF4LLEQnS/xwPAAAAAAAAAAAAAAAAAAAAAAAAAAAAVPwENOyTEugKVfgAAAAASUVORK5CYII=",
       },
     ],
   },
@@ -214,7 +220,7 @@ export const projects = [
       "Cloudinary",
       "Vercel"
     ],
-    category: "Web App",
+    category: "web App",
     github: "https://github.com/mohammed-reda-elakhal/eromax",
     webapp: "https://eromax.vercel.app/",
     member: [
@@ -242,7 +248,7 @@ export const projects = [
     image:
       "https://res.cloudinary.com/dqkknqgiz/image/upload/v1733433573/296615618-48a31a47-1045-403f-875f-0aed8c3b100f_aasix2.png",
     tags: ["Next Js", "CSS", "TypeScript"],
-    category: "Web App",
+    category: "web App",
     github: "https://github.com/mohammed-reda-elakhal/3d-langing01",
     webapp: "https://pricing-service-lilac.vercel.app/",
     member: [
@@ -268,7 +274,7 @@ export const projects = [
       "CSS",
       "JavaScript",
     ],
-    category: "Web App",
+    category: "web App",
     github: "#",
     webapp: "https://yamoexpress.ma/",
     member: [
@@ -332,7 +338,7 @@ export const projects = [
     image:
       "https://res.cloudinary.com/dqkknqgiz/image/upload/v1733962051/295302905-43838cc5-44c8-4445-b4c1-a7de797b35ca_it90op.png",
     tags: ["HTML", "JavaScript", "CSS", "MapBoxJS"],
-    category: "Web App",
+    category: "web App",
     github: "https://github.com/mohammed-reda-elakhal/PFE-DATA-Visualisation",
     webapp: "#",
   }
