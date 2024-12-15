@@ -103,11 +103,6 @@ export const skills = [
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
       {
-        name: "Netlify",
-        image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
-      },
-      {
         name: "VS Code",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
@@ -133,13 +128,12 @@ export const skills = [
 
 export const experiences = [
   {
-   
     id: 0,
     img: "https://res.cloudinary.com/dqkknqgiz/image/upload/v1733431768/logo_pbuicl.png",
-    role: "Collaboration avec Eromax Sociétée de livraison",
+    role: "Collaboration avec la société de livraison Eromax",
     company: "Eromax.",
     date: "Juin 2024 - Nov 2024",
-    desc: "Créer une application web pour gérer le service de livraison et organiser le travail ",
+    desc: "Création d'une application web pour gérer le service de livraison et organiser le travail.",
     skills: [
       "React JS",
       "Express JS",
@@ -150,53 +144,56 @@ export const experiences = [
       "JavaScript",
       "Cloudinary",
     ],
-    doc: " https://res.cloudinary.com/dqkknqgiz/image/upload/v1733431509/WhatsApp_Image_2024-12-05_%C3%A0_21.33.22_49d6cf4e_a8pli4.jpg",
-  },
+    doc: "https://res.cloudinary.com/dqkknqgiz/image/upload/v1733431509/WhatsApp_Image_2024-12-05_%C3%A0_21.33.22_49d6cf4e_a8pli4.jpg",
+  },  
   {
     id: 1,
     img: "https://res.cloudinary.com/dqkknqgiz/image/upload/v1733432228/Capture_d_%C3%A9cran_2024-12-05_215619_ex0uce.png",
-    role: "Stage de Fin d'etude Dans SEWS",
+    role: "Stage de fin d'études chez SEWS",
     company: "Sews-MFZ",
     date: "Avril 2023 - Juin 2023",
-    desc: "Développement d'une application desktop pour la gestion desinterventions des techniciens.",
+    desc: "Développement d'une application de bureau pour la gestion des interventions des techniciens.",
     skills: [
       "C#",
-      "Windows From",
+      "Windows Forms",
       "SQL Server",
       "Visual Studio",
     ],
     doc: "https://res.cloudinary.com/dqkknqgiz/image/upload/v1733432275/295306562-4ad21c00-b169-46e2-bc51-d49fb9c0cb15_qb08om.png",
-  },
+  }
 ];
 
 export const education = [
   {
     id: 0,
     img: "https://res.cloudinary.com/dqkknqgiz/image/upload/v1733962613/Sans_titre4552_uho3rl.png",
-    school: "Ecole Supérieure de Technologie - Kénitra",
-    date: "Sept 2024 - Present",
+    school: "École Supérieure de Technologie - Kénitra",
+    date: "Sept 2024 - Présent",
     grade: "8.71 CGPA",
-    desc: "LUS Ingénierie Informatique en Infrastructure digitale et Développement Full Stack , dans l’Ecole supérieure de Technologie Kenitra UIT.",
+    desc: "LUS Ingénierie Informatique en Infrastructure digitale et Développement Full Stack à l’École Supérieure de Technologie, Kenitra UIT.",
     degree: "Licence professionnelle",
-  },
+  }
+  ,
   {
     id: 1,
     img: "https://res.cloudinary.com/dqkknqgiz/image/upload/v1733962613/images_xyfthk.jpg",
-    school: "Ecole Supérieure de Technologie - Fés",
-    date: "Sept 2021 -  Juil 2023",
+    school: "École Supérieure de Technologie - Fès",
+    date: "Sept 2021 - Juil 2023",
     grade: "12.36",
-    desc: "Diplômé en génie informatique, spécialisé en administration des bases de données, dans l’Ecole supérieure de Technologie Fès USMBA.",
-    degree: "Diplôme universitaire de Technologie ",
-  },
+    desc: "Diplômé en génie informatique, spécialisé en administration des bases de données, à l’École Supérieure de Technologie, Fès USMBA.",
+    degree: "Diplôme universitaire de Technologie",
+  }
+  ,
   {
     id: 2,
     img: "https://res.cloudinary.com/dqkknqgiz/image/upload/v1733963088/Sans_titre5641_todqd6.png",
-    school: "SBIHI , SALE",
-    date: "Sept 2020 - juil 2021",
+    school: "SBIHI, SALÉ",
+    date: "Sept 2020 - Juil 2021",
     grade: "15.56",
-    desc: "Baccalauréat Scientifique en Sciences Physiques option Français.",
-    degree: "Baccalauréat ",
-  },
+    desc: "Baccalauréat Scientifique en Sciences Physiques, option Français.",
+    degree: "Baccalauréat",
+  }
+  ,
 ];
 
 export const projects = [
@@ -205,7 +202,7 @@ export const projects = [
     title: "Eromax",
     date: "Juin 2024 - Nov 2024",
     description:
-      "application web, développée avec la technologie MERN stack (MongoDB, Express, React, Node.js), offre une solution complète et moderne pour la gestion d'un service de livraison. Elle comprend une vitrine pour l'affichage public et un tableau de bord dynamique pour la gestion interne, adapté à trois types d'utilisateurs : client, livreur, et admin.",
+      "Application web développée avec la technologie MERN stack (MongoDB, Express, React, Node.js), offrant une solution complète et moderne pour la gestion d'un service de livraison. Elle comprend une vitrine pour l'affichage public et un tableau de bord dynamique pour la gestion interne, adapté à trois types d'utilisateurs : client, livreur et admin.",
     image:
       "https://res.cloudinary.com/dqkknqgiz/image/upload/v1733431509/WhatsApp_Image_2024-12-05_%C3%A0_21.33.22_49d6cf4e_a8pli4.jpg",
     tags: [
@@ -217,7 +214,7 @@ export const projects = [
       "Cloudinary",
       "Vercel"
     ],
-    category: "web app",
+    category: "Web App",
     github: "https://github.com/mohammed-reda-elakhal/eromax",
     webapp: "https://eromax.vercel.app/",
     member: [
@@ -228,23 +225,24 @@ export const projects = [
         github: "https://github.com/mohammed-reda-elakhal",
       },
       {
-        name: "Safae Sehlaoui ",
+        name: "Safae Sehlaoui",
         img: "https://res.cloudinary.com/dqkknqgiz/image/upload/v1733433977/75322337_ayql9c.jpg",
         linkedin: "https://www.linkedin.com/in/safae-sahlaoui-242b1919a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         github: "https://github.com/safaesahlaoui",
       },
     ]
-  },
+  }
+  ,
   {
     id: 2,
-    title: "3D Langing Page",
+    title: "3D Landing Page",
     date: "2024",
     description:
-      "3D Landing page avec pricing card",
+      "Page d'atterrissage 3D avec carte de tarification.",
     image:
       "https://res.cloudinary.com/dqkknqgiz/image/upload/v1733433573/296615618-48a31a47-1045-403f-875f-0aed8c3b100f_aasix2.png",
-    tags: ["Next Js","CSS","TypeScript"],
-    category: "web app",
+    tags: ["Next Js", "CSS", "TypeScript"],
+    category: "Web App",
     github: "https://github.com/mohammed-reda-elakhal/3d-langing01",
     webapp: "https://pricing-service-lilac.vercel.app/",
     member: [
@@ -255,22 +253,22 @@ export const projects = [
         github: "https://github.com/mohammed-reda-elakhal",
       },
     ]
-   
-  },
+  }
+  ,
   {
     id: 3,
     title: "YamoExpress",
-    date: "Oct 2022 - Present",
+    date: "Oct 2022 - Présent",
     description:
-      "Frontend d'un vitrine de YamoExpress , présent service de livraison.",
+      "Frontend d'une vitrine pour YamoExpress, un service de livraison.",
     image:
       "https://res.cloudinary.com/dqkknqgiz/image/upload/v1733433824/Capture_d_%C3%A9cran_2024-12-05_222325_taeq7u.png",
     tags: [
       "HTML",
       "CSS",
-      "JAVASCRIPT",
+      "JavaScript",
     ],
-    category: "web app",
+    category: "Web App",
     github: "#",
     webapp: "https://yamoexpress.ma/",
     member: [
@@ -281,13 +279,14 @@ export const projects = [
         github: "https://github.com/mohammed-reda-elakhal",
       },
     ]
-  },
+  }
+  ,
   {
     id: 4,
     title: "Downtime Monitor",
     date: "2023",
     description:
-      "application desktop pour la gestion desinterventions des techniciens, avec différents profils utilisateurs (production, technicien,admin/manager). Intégration de fonctionnalités de visualisation des données et des indicateursclés (MTTR, MTBF). Technologies : C# (Windows Forms), SQL Server.",
+      "Application de bureau pour la gestion des interventions des techniciens, avec différents profils utilisateurs (production, technicien, admin/manager). Intégration de fonctionnalités de visualisation des données et des indicateurs clés (MTTR, MTBF). Technologies : C# (Windows Forms), SQL Server.",
     image:
       "https://res.cloudinary.com/dqkknqgiz/image/upload/v1733432275/295306562-4ad21c00-b169-46e2-bc51-d49fb9c0cb15_qb08om.png",
     tags: ["C#", "SQL Server"],
@@ -301,16 +300,17 @@ export const projects = [
         github: "https://github.com/mohammed-reda-elakhal",
       },
     ]
-  },
+  }
+  ,
   {
     id: 5,
     title: "Gestion de Stock",
     date: "2023",
     description:
-      "Overview: As a developer, I successfully designed and implemented a Simple Stock Management System using C# Windows Form, Entity Framework, and SQL Server. This tailored system efficiently handles inventory tracking, seller information, and order management. Its user-friendly interface simplifies stock control, allowing users to manage product quantities, track deliveries, and analyze business performance seamlessly.",
+      "Vue d'ensemble : En tant que développeur, j'ai conçu et implémenté avec succès un système de gestion de stock simple utilisant C# Windows Form, Entity Framework et SQL Server. Ce système personnalisé gère efficacement le suivi des stocks, les informations des vendeurs et la gestion des commandes. Son interface conviviale simplifie le contrôle des stocks, permettant aux utilisateurs de gérer les quantités de produits, suivre les livraisons et analyser la performance de l'entreprise de manière fluide.",
     image:
       "https://res.cloudinary.com/dqkknqgiz/image/upload/v1733434485/295305102-31efa098-07c3-4f43-a502-50ac6e725be9_l1ei7t.png",
-    tags: ["C#" , "SQL Server" , "Entity Framwork"],
+    tags: ["C#", "SQL Server", "Entity Framework"],
     category: "Desktop App",
     github: "https://github.com/mohammed-reda-elakhal/Stock-APP",
     member: [
@@ -321,20 +321,21 @@ export const projects = [
         github: "https://github.com/mohammed-reda-elakhal",
       },
     ]
-  },
+  }
+  ,
   {
     id: 6,
     title: "Visualisation",
     date: "2023",
     description:
-      "Visualisation Data Using javascript and API from mapBox js to display Data in carte geographic",
+      "Visualisation des données utilisant JavaScript et l'API de MapBox JS pour afficher les données sur une carte géographique.",
     image:
       "https://res.cloudinary.com/dqkknqgiz/image/upload/v1733962051/295302905-43838cc5-44c8-4445-b4c1-a7de797b35ca_it90op.png",
-    tags: ["HTML", "JavaScript", "CSS" , "MAPBOXJS"],
-    category: "web app",
+    tags: ["HTML", "JavaScript", "CSS", "MapBoxJS"],
+    category: "Web App",
     github: "https://github.com/mohammed-reda-elakhal/PFE-DATA-Visualisation",
     webapp: "#",
-  },
+  }
 ];
 
 export const TimeLineData = [

@@ -119,7 +119,7 @@ const SkillImage = styled.img`
 `
 
 
-const Skills = () => {
+  const Skills = () => {
   return (
     <Container id="skills">
       <Wrapper>
