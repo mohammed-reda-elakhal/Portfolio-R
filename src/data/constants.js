@@ -119,7 +119,7 @@ export const skills = [
           "https://cdn.worldvectorlogo.com/logos/postman.svg",
       },
       {
-        name: "Figma",
+        name: "Canva",
         image:
         "https://freepnglogo.com/images/all_img/1691829322canva-app-logo-png.png"
       },
